@@ -1,0 +1,16 @@
+CREATE DATABASE bookapp_db;
+
+USE bookapp_db;
+
+CREATE TABLE books
+(id INT PRIMARY KEY AUTO_INCREMENT,
+NAME VARCHAR(25) NOT NULL,
+author_name VARCHAR(25) NOT NULL,
+price FLOAT NOT NULL,
+publish_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO books(NAME,author_name,price) 
+VALUES("Java","Herbert",555.0);
+
+SELECT * FROM books;
