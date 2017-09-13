@@ -1,18 +1,18 @@
 # bookapp-web
 
-Setup Project in Eclipse
-# Click Clone or download
-# Click Download Zip
-# Right click zip->Extract Here 
-# Copy the extracted project into any location ex: D:\MyWorkspace\bookapp-web
-# In Eclipse, goto File->Import->General->Existing Projects into Workspace
-# Click Browse and select D:\MyWorkspace\bookapp-web
-# Click Finish
+I)Setup Project in Eclipse
+#1 Click Clone or download
+#2 Click Download Zip
+#3 Right click zip->Extract Here 
+#4 Copy the extracted project into any location ex: D:\MyWorkspace\bookapp-web
+#5 In Eclipse, goto File->Import->General->Existing Projects into Workspace
+#6 Click Browse and select D:\MyWorkspace\bookapp-web
+#7 Click Finish
 
-Configure db in MySQL
-# After project setup, open sql folder in D:\MyWorkspace\bookapp-web
-# Copy the sql queries and execute
+II)Configure db in MySQL
+#1 After project setup, open sql folder in D:\MyWorkspace\bookapp-web
+#2 Copy the sql queries and execute
 
-Run the Project
-# In eclipse, right click bookapp-web-> Run As-> Run on Server
-# In browser, access http://localhost:8080/bookapp-web/
+III)Run the Project
+#1 In eclipse, right click bookapp-web-> Run As-> Run on Server
+#2 In browser, access http://localhost:8080/bookapp-web/
