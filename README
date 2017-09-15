@@ -5,9 +5,9 @@ I)Setup Project in Eclipse
 2 Click Download Zip
 3 Right click zip->Extract Here 
 4 Copy the extracted project into any location ex: D:\MyWorkspace\bookapp-web
-5 In Eclipse, goto File->Import->General->Existing Projects into Workspace
+5 In Eclipse, goto File->Import->Maven->Existing Maven Projects
 6 Click Browse and select D:\MyWorkspace\bookapp-web
-7 Click Finish
+7 Click Finish(ensure that pom.xml is checked)
 
 II)Configure db in MySQL
 1 After project setup, open sql folder in D:\MyWorkspace\bookapp-web
