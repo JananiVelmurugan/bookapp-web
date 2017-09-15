@@ -1,6 +1,10 @@
 <!-- Latest compiled and minified Bootstrap CSS -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/css/jquery.dataTables.min.css">
+<!-- fontawesome-alternative for glyphicons -->
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+<link rel="stylesheet"
+	href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
 
 <!-- jQuery library -->
 <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
@@ -10,9 +14,6 @@
 
 <!-- Latest compiled and minified Bootstrap JavaScript -->
 <script src="assets/js/bootstrap.min.js"></script>
-
-<!-- fontawesome-alternative for glyphicons -->
-<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
 <!-- jQuery datatable -->
 <script src="assets/js/jquery.dataTables.min.js"></script>

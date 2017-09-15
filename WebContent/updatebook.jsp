@@ -9,6 +9,7 @@
 <body>
 	<jsp:include page="layout/header.jsp"></jsp:include>
 	<div class="container">
+		<h3>Edit Book</h3>
 		<form action="UpdateBookServlet" method="post">
 			<div class="form-group row">
 				<label for="id" class="col-2 col-form-label">Book Id</label>

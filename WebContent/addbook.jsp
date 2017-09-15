@@ -9,6 +9,7 @@
 <body>
 	<jsp:include page="layout/header.jsp"></jsp:include>
 	<div class="container">
+		<h3>Insert Book</h3>
 		<form action="SaveBookServlet" method="post">
 			<div class="form-group row">
 				<label for="name" class="col-2 col-form-label">Book Name</label>
