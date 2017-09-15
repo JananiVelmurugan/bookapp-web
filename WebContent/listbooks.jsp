@@ -33,7 +33,8 @@
 						<td>${book.publishedDate}</td>
 						<td><a
 							href="<%=request.getContextPath()%>/EditBookServlet?id=${book.id}"
-							class="fa fa-pencil" aria-hidden="true" title="edit"></a> <a
+							class="fa fa-pencil" data-toggle="tooltip" data-placement="top"
+							aria-hidden="true" title="edit"></a> <a
 							href="<%=request.getContextPath()%>/DeleteBookServlet?id=${book.id}"
 							class="fa fa-times" aria-hidden="true" data-toggle="tooltip"
 							data-placement="top" title="remove"> </a></td>

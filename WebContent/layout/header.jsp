@@ -1,5 +1,6 @@
 <!-- Latest compiled and minified Bootstrap CSS -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/jquery.dataTables.min.css">
 
 <!-- jQuery library -->
 <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
@@ -15,7 +16,6 @@
 
 <!-- jQuery datatable -->
 <script src="assets/js/jquery.dataTables.min.js"></script>
-<link rel="stylesheet" href="assets/css/jquery.dataTables.min.css">
 
 <script>
 	$(document).ready(function() {
