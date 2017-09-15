@@ -7,18 +7,18 @@
 <title>update book</title>
 </head>
 <body>
-	<jsp:include page="header.jsp"></jsp:include>
+	<jsp:include page="layout/header.jsp"></jsp:include>
 	<div class="container">
 		<form action="UpdateBookServlet" method="post">
 			<div class="form-group row">
-				<label for="id" class="col-5 col-form-label">Book Id</label>
+				<label for="id" class="col-2 col-form-label">Book Id</label>
 				<div class="col-5">
 					<input class="form-control" type="text" id="id" name="id"
 						value="${BOOK.id}" readonly />
 				</div>
 			</div>
 			<div class="form-group row">
-				<label for="name" class="col-5 col-form-label">Book Name</label>
+				<label for="name" class="col-2 col-form-label">Book Name</label>
 				<div class="col-5">
 					<input class="form-control" type="text" id="name" name="name"
 						value="${BOOK.name}" required autofocus />

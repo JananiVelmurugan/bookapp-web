@@ -1,5 +1,3 @@
-<%@page import="com.janani.model.Book"%>
-<%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
@@ -8,17 +6,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>list books</title>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="//cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
-<script>
-	$(document).ready(function() {
-		$('#booktable').DataTable();
-	});
-</script>
 </head>
 <body>
-	<jsp:include page="header.jsp"></jsp:include>
+	<jsp:include page="layout/header.jsp"></jsp:include>
+
 	<div class="container">
+		<h3>List of Books</h3>
 		<table border="1" id="booktable" class="table bordered">
 			<thead>
 				<tr>
@@ -27,6 +20,7 @@
 					<th>Author Name</th>
 					<th>Price</th>
 					<th>Published Date</th>
+					<th>Action</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -37,11 +31,17 @@
 						<td>${book.authorName}</td>
 						<td>${book.price}</td>
 						<td>${book.publishedDate}</td>
+						<td><a
+							href="<%=request.getContextPath()%>/EditBookServlet?id=${book.id}"
+							class="fa fa-pencil" aria-hidden="true" title="edit"></a> <a
+							href="<%=request.getContextPath()%>/DeleteBookServlet?id=${book.id}"
+							class="fa fa-times" aria-hidden="true" data-toggle="tooltip"
+							data-placement="top" title="remove"> </a></td>
 					</tr>
 				</c:forEach>
 			</tbody>
 		</table>
-		<br>
+
 	</div>
+
 </body>
-</html>

@@ -7,11 +7,11 @@
 <title>add book</title>
 </head>
 <body>
-	<jsp:include page="header.jsp"></jsp:include>
+	<jsp:include page="layout/header.jsp"></jsp:include>
 	<div class="container">
 		<form action="SaveBookServlet" method="post">
 			<div class="form-group row">
-				<label for="name" class="col-5 col-form-label">Book Name</label>
+				<label for="name" class="col-2 col-form-label">Book Name</label>
 				<div class="col-5">
 					<input class="form-control" type="text" id="name" name="name"
 						required autofocus />
