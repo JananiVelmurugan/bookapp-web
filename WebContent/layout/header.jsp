@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
 <link rel="stylesheet"
-	href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+	href="assets/css/jquery.dataTables.min.css">
 
 <!-- jQuery library -->
 <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
